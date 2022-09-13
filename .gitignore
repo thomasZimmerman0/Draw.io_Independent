@@ -1,10 +1,4 @@
 node_modules/
 config/
-views/test.ejs
-routes/test.js
-views/test.ejs/
-routes/test.js/
 routes/user_profile.js/
 views/user_profile.ejs/
-views/test.ejs/
-routes/test.js/
