@@ -3,6 +3,7 @@ const router = express.Router();
 const auth = require('../auth')
 let db = require('../models')
 
+
 router.get('/draw',auth, (req,res) => {
 
     res.render('draw', {
@@ -28,7 +29,7 @@ router.get('/draw/:id',auth, async(req,res) => {
 router.post('/draw', auth, async (req,res) => {
 
     try{
-        console.log('working?')
+
         let{ID, title, body} = req.body;
         let existCheck = await db.drawings.findByPk(ID);
         if(existCheck){
