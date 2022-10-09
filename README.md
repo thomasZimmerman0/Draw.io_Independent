@@ -12,7 +12,7 @@ Draw.io is a website with a built in canvas paint style editor that allows you t
 * HTML
 * CSS
 * Javascript
-* Clodinary
+* Cloudinary
 * Node.js
 
 ## Minimum Viable Product
